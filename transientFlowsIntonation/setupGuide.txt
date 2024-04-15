@@ -1,0 +1,10 @@
+-make sure computer is on do not disturb, amphetamine, etc.
+-connect Zoom, speakers
+-make sure Zoom is on, set to audio interface mode, stereo (not multitrack), bus powered
+-plugin pis
+-load all .scd scripts
+-setup tmux session and connect to two pis (pione.local and pitwo.local)
+-check sound (sanityCheck.ck)
+-start pi programs (chuck serverMaster.ck --caution-to-the-wind)
+-make sure both phones have touchOsc open and TFI_layout.tosc running and are on pi network and have eagle2018 in their connections
+-load .scd scripts in order. make sure soundServer.scd has the right audio devices
